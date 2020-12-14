@@ -5,7 +5,7 @@
 # ----------------------------------
 FROM adoptopenjdk/openjdk11:alpine
 
-MAINTAINER elijah goforth, <motelcoconut@gmail.com>
+MAINTAINER motelcoconut, <hello@skynebula.xyz>
 
 RUN apk add --no-cache --update curl ca-certificates openssl git tar bash sqlite fontconfig \
     && adduser -D -h /home/container container
